@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- page-specific CSS rules to individual HTML documents are placed within
+  the head element of the HTML document between the style element-->
+    <style media="screen">
+      body {
+        color: blue;
+      }
+    </style>
     <title>Dummy</title>
   </head>
   <body>
@@ -10,8 +17,9 @@
 
     <p>This is a dummy page that helps us demonstrate reusable CSS stylesheets.
       <a href="hello-css.html">Go back</a></p>
-
-      <p>Want to try crossing out an <a href="nowhere.html">obsolete link</a>?
+    <!-- Using the inle styles, we'd make the link that goes nowhere red to
+    make us remember that it is going nowhere -->
+    <p>Want to try crossing out an <a href="nowhere.html" style="color: 990000; text-decoration: line-through;">obsolete link</a>?
       This is your chance!</p>
   </body>
 </html>
