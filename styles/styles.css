@@ -29,4 +29,10 @@ a {
 
 /* While the text-decoration property, line-through can be used to strike out "deleted" text,
 meaning should always be conveyed through HTML, not CSS. Using the <ins> and <del> elements
-instead of adding a line-through style to an ordinary <p> element serves a better purpose.*/
+instead of adding a line-through style to an ordinary <p> element serves a better purpose. */
+
+/* text-align property defines the alignment of the text in an HTML element */
+
+p {
+  text-align: left;
+}
